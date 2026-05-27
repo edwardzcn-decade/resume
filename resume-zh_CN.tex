@@ -11,6 +11,10 @@
 % \usepackage{multirow}
 % \usepackage{tabu}
 
+\titlespacing*{\section}{0cm}{*1.25}{*1.0}
+\titlespacing*{\subsection}{0cm}{*1.0}{*0.35}
+\setlist[itemize]{topsep=0.15em, leftmargin=1.5pc}
+
 \begin{document}
 \pagenumbering{gobble} % suppress displaying page number
 
@@ -47,15 +51,15 @@
 \datedsubsection{\textbf{新加坡国立大学 TEST Lab}\ 新加坡}{2023年8月 - 2023年12月}
 {（数据库测试）学术访问实习}
 \begin{itemize}
-  \item 为开源数据库测试框架 SQLancer 增加 SurrealDB 的支持，包括语法生成器以及对应PQS、TLP测试预言模块。
-  \item 基于 SQLancer 开发针对跨数据库数据变更捕获工具的自动化测试套件。
+  \item 为开源数据库测试框架 SQLancer 增加 SurrealDB 支持，包括语法生成器及对应的 PQS、TLP 测试预言模块。
+  \item 基于 SQLancer 开发面向跨数据库数据变更捕获工具的自动化测试套件。
 \end{itemize}
 
 
 \datedsubsection{\textbf{阿里巴巴PolarDB团队}\ 杭州}{2022年8月 - 2023年7月}
 {（分布式数据库）研发实习}
 \begin{itemize}
-  \item 协助构建一个使用 Multi-Paxos 协议的地理分布式多节点读写数据库，实现行级多写。
+  \item 协助构建基于 Multi-Paxos 协议的地理分布式多节点读写数据库，实现行级多写。
   \item 基于 Sysbench 基准测试套件开发自动化生成跨地域节点性能测试工具。
 \end{itemize}
 
@@ -64,7 +68,7 @@
 % \begin{onehalfspacing}
 {（形式化验证）研发实习}
 \begin{itemize}
-  \item 使用ocamllex、ocamlyacc工具协助团队构建Lustre V6编译器项目前端词法语法部分
+  \item 使用 ocamllex、ocamlyacc 工具协助团队构建 Lustre V6 编译器项目前端词法与语法分析模块
 \end{itemize}
 % \end{onehalfspacing}
 
@@ -76,8 +80,8 @@
 % \begin{onehalfspacing}
 {二等奖（全国第三名）}
 \begin{itemize}
-  \item 针对低轮 Keccak256 哈希算法原像攻击，负责算法研究和编程实现
-  \item 复现 Asiacrypt 会议的攻击方法，利用 NTL 数学库加速求解过程，改良特化结构进行原像攻击
+  \item 针对低轮 Keccak256 哈希算法的原像攻击，负责算法研究和编程实现
+  \item 复现 Asiacrypt 会议的攻击方法，利用 NTL 数学库加速求解过程，并改良特化结构以优化攻击效果
 \end{itemize}
 % \end{onehalfspacing}
 
@@ -96,7 +100,7 @@
 
 \section{\faBook\ 教学经历}
 \begin{itemize}
-  \item \textbf{离散数学}课程助教 \ 2020年秋季学期 \ 中南大学 
+  \item \textbf{离散数学}课程助教 \ 2020年秋季学期 \ 中南大学
   \item \textbf{编译原理}课程助教 \ 2021年春季学期 \ 中南大学
   \item \textbf{编译原理}课程助教 \ 2022年春季学期 \ 中国科学技术大学
   \item \textbf{全国大学生计算机系统能力大赛编译系统设计赛}指导老师 \ 2022年 \ 中国科学技术大学
@@ -105,14 +109,14 @@
 \section{\faUsers\ 社团和组织经历}
 \begin{itemize}
     \item 曾任中南大学信息学院团学会宣传部部长，负责歌手大赛、新生入学等线上线下宣传工作
-    \item 中南大学ACM-ICPC算法竞赛实验室队员，协助管理实验室事务
+    \item 中南大学 ACM-ICPC 算法竞赛实验室队员，协助管理实验室事务
     % \item 中南大学disc0ver开源组织主要贡献者，搭建知识Wiki，担任两门专业核心课助教
     
 \end{itemize}
 \section{\faTasks\ 技能与爱好}
 % increase linespacing [parsep=0.5ex]
 \begin{itemize}[parsep=0.4ex]
-  \item \pbar{语言}{0.5}: 英语-流畅， 汉语-母语
+  \item \pbar{语言}{0.5}: 英语-流畅，汉语-母语
   \item \pbar{文体}{0.8}: 摄影，电子琴，吉他，长跑，徒步登山（校登山队成员）
 \end{itemize}
 
